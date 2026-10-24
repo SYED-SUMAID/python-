@@ -20,6 +20,12 @@ def modulus(a,b):
 def exponent(a, b):
     return a ** b
 
+print("Select operation:")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+
 input1 = int(input("Enter first number: "))
 input2 = int(input("Enter second number: "))    
 
@@ -31,3 +37,4 @@ elif input == 3:
     print("Multiplication:", multiply(input1, input2))
 elif input == 4:
     print("Division:", divide(input1, input2))  
+
