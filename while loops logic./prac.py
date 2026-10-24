@@ -20,6 +20,12 @@ def modulus(a,b):
 def exponent(a, b):
     return a ** b
 
+def percent(a, b):
+    return (a / b) * 100
+
+def square(a):
+    return a * a
+
 print("Select operation:")
 print("1. Addition")
 print("2. Subtraction")
@@ -27,8 +33,10 @@ print("3. Multiplication")
 print("4. Division")    
 print("5. Modulus")
 print("6. Exponent")
+print("7. Percentage")
+print("8. Square")
 
-choice = input("Enter choice(1/2/3/4/5/6): ")
+choice = input("Enter choice(1/2/3/4/5/6/7/8): ")
 
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))    
@@ -45,3 +53,7 @@ elif choice == '5':
     print("Modulus:", modulus(number1, number2))
 elif choice == '6':
     print("Exponent:", exponent(number1, number2))
+elif choice == '7':
+    print("Percentage:", percent(number1, number2))
+elif choice == '8':
+    print("Square:", square(number1))
