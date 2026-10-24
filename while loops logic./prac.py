@@ -13,3 +13,7 @@ print(multiply(6, 7))
 def divide(a, b):
     return a / b
 print(divide(15, 3))
+
+def modulus(a,b):
+    return a % b
+print(modulus(10, 3))
