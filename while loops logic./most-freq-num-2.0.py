@@ -11,7 +11,7 @@ while i < len(numbers):
 
     i += 1
 
-keys = list(freq)
+    keys = list(freq)
 j = 0
 max_freq = 0
 
