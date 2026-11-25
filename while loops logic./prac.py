@@ -57,3 +57,5 @@ elif choice == '7':
     print("Percentage:", percent(number1, number2))
 elif choice == '8':
     print("Square:", square(number1))
+    should_continue = input("Do you want to continue? (yes/no): ")
+    
